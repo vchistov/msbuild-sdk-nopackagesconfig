@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup Condition=" Exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).nuspec') ">
+    <NuspecFile>$(MSBuildProjectDirectory)\$(MSBuildProjectName).nuspec</NuspecFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" Exists('$(NuspecFile)') ">
+    <GenerateNuspecDependsOn>$(GenerateNuspecDependsOn);SetNuSpecProperties</GenerateNuspecDependsOn>
+  </PropertyGroup>
+
+  <Target Name="SetNuSpecProperties" Condition=" Exists('$(NuspecFile)') ">
+    <PropertyGroup>
+      <NuspecProperties>
+        id=$(PackageId);
+        description=$(PackageDescription);
+        version=$(PackageVersion);
+        authors=$(Authors);
+        copyright=$(Copyright);
+        projecturl=$(PackageProjectUrl);
+        licenseurl=$(PackageLicenseUrl);
+        tags=$(PackageTags)
+      </NuspecProperties>
+    </PropertyGroup>
+  </Target>
+
+</Project>

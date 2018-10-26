@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.Build.NoTargets">
+
+  <PropertyGroup>
+    <Description>Provides the ability to make sure the PackageReference is used instead of packages.config.</Description>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <PackageTags>MSBuild MSBuildSdk</PackageTags>
+    <PackageType>MSBuildSdk</PackageType>
+  </PropertyGroup>
+
+</Project>
