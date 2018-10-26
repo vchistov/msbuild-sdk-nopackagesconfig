@@ -6,7 +6,6 @@
     <description>$description$</description>
     <authors>$authors$</authors>
     <owners>$authors$</owners>
-    <copyright>$copyright$</copyright>
     <projectUrl>$projecturl$</projectUrl>
     <licenseUrl>$licenseurl$</licenseUrl>
     <tags>$tags$</tags>

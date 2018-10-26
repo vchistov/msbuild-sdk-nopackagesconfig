@@ -16,7 +16,6 @@
         description=$(PackageDescription);
         version=$(PackageVersion);
         authors=$(Authors);
-        copyright=$(Copyright);
         projecturl=$(PackageProjectUrl);
         licenseurl=$(PackageLicenseUrl);
         tags=$(PackageTags)

@@ -3,7 +3,6 @@
 
   <PropertyGroup>
     <Authors>Victor Chistov</Authors>
-    <Copyright>© Victor Chistov</Copyright>
     <PackageLicenseUrl>https://github.com/vchistov/msbuild-sdk-nopackagesconfig/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/vchistov/msbuild-sdk-nopackagesconfig</PackageProjectUrl>
     <RepositoryUrl>https://github.com/vchistov/msbuild-sdk-nopackagesconfig.git</RepositoryUrl>
